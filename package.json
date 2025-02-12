@@ -1,0 +1,35 @@
+{
+  "name": "package_manager",
+  "version": "1.0.0",
+  "description": "ejemplo de clase de web platforms que explica el uso de dependencias.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha",
+    "dev": "supervisor ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OPC02/mi-primera-aplicaci-n-con-npm-RogelioBV98.git"
+  },
+  "keywords": [
+    "UACH",
+    "WEB",
+    "Dependencias"
+  ],
+  "author": "Jesus Rogelio Beltran Verdugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OPC02/mi-primera-aplicaci-n-con-npm-RogelioBV98/issues"
+  },
+  "homepage": "https://github.com/OPC02/mi-primera-aplicaci-n-con-npm-RogelioBV98#readme",
+  "dependencies": {
+    "log4js": "^6.9.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.0",
+    "globals": "^15.14.0",
+    "mocha": "^11.1.0"
+  }
+}
